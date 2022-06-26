@@ -1,0 +1,235 @@
+body {
+  background-color: rgb(184, 132, 46);
+}
+
+#back-wall {
+  background-color: #8b4513;
+  width: 100%;
+  height: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+#characters {
+  width: 70%;
+  height: 80%;
+  max-width: 1400px;
+}
+#off-white-character {
+  width: 300px;
+  height: 500px;
+  background-color: ghostwhite;
+  position: absolute;
+  top: 20%;
+  left: 12%;
+}
+#white-hat {
+  position: absolute;
+  height: 0;
+  width: 0;
+  border-style: solid;
+  border-right-color: transparent;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-bottom-color: ghostwhite;
+  border-width: 0 130px 170px 170px;
+  top: -170px;
+  left: 0;
+}
+#black-mask {
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  background-color: rgb(45, 31, 19);
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+#gray-instrument {
+  width: 40px;
+  height: 190px;
+  position: absolute;
+  background-color: rgb(167, 162, 117);
+  top: 50px;
+  left: 130px;
+  z-index: 1;
+}
+
+.black-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: black;
+  margin: 0 auto;
+  margin-top: 22px;
+}
+#tan-table {
+  background-color: #d2691e;
+  width: 440px;
+  height: 130px;
+  position: absolute;
+  top: 49%;
+  left: 5%;
+  z-index: 2;
+}
+
+#black-character {
+  background-color: rgb(45, 31, 19);
+  width: 300px;
+  height: 440px;
+  position: absolute;
+  top: 25%;
+  left: 51%;
+}
+
+#black-hat {
+  height: 0;
+  width: 0;
+  border-style: solid;
+  border-width: 0 300px 150px 0;
+  border-right-color: transparent;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-bottom-color: rgb(45, 31, 19);
+  position: absolute;
+  top: -150px;
+}
+#gray-mask {
+  width: 50%;
+  height: 140px;
+  background-color: rgb(167, 162, 117);
+  position: absolute;
+  top: -10px;
+  left: 25%;
+}
+
+#white-paper {
+  background-color: #fff;
+  width: 400px;
+  height: 100px;
+  position: absolute;
+  top: 52%;
+  right: 8%;
+  z-index: 3;
+}
+
+.fa-music {
+  display: inline-block;
+  margin: 30px 20px;
+  margin-left: 40px;
+}
+/* ------- BLUE DIV -------*/
+
+.blue {
+  background-color: #1e90ff;
+}
+#blue-left {
+  width: 450px;
+  height: 250px;
+  position: absolute;
+  top: 20%;
+  left: 17%;
+}
+#blue-right {
+  width: 374px;
+  height: 280px;
+  position: absolute;
+  top: 40%;
+  left: 35%;
+}
+
+#orange-character {
+  height: 500px;
+  width: 228px;
+  background-color: rgb(240, 78, 42);
+  position: absolute;
+  top: 25%;
+  left: 34%;
+}
+
+#round-hat {
+  width: 75%;
+  height: 100px;
+  background-color: rgb(59, 6, 6);
+  position: absolute;
+  border-radius: 60%;
+  top: -85px;
+  z-index: -1;
+}
+
+.triangles {
+  width: 100%;
+  height: 100px;
+}
+
+.triangle {
+  height: 0;
+  width: 0;
+  border-style: solid;
+  border-width: 40px 41px 40px 0;
+  border-right-color: gold;
+  border-top-color: transparent;
+  border-left-color: transparent;
+  border-bottom-color: transparent;
+  display: inline-block;
+}
+
+#guitar {
+  width: 300px;
+  height: 110px;
+  position: absolute;
+  z-index: 3;
+}
+
+#guitar div:not(div:last-of-type) {
+  background-color: Goldenrod;
+  width: 130px;
+  height: 100%;
+  border-radius: 50%;
+}
+.guitar-left {
+  position: absolute;
+  left: 0;
+}
+
+.guitar-right {
+  position: absolute;
+  left: 100px;
+}
+.fa-bars {
+  display: block;
+  margin: 35% 40%;
+}
+
+.guitar-neck {
+  width: 200px;
+  height: 30px;
+  background-color: #d2691e;
+  position: absolute;
+  top: 42px;
+  left: 190px;
+}
+.eye-div {
+  width: 84%;
+  height: 30px;
+  position: absolute;
+  top: -35px;
+}
+.eye {
+  width: 35px;
+  height: 20px;
+  background-color: #8b4513;
+  border-radius: 20px 50%;
+}
+.left {
+  position: absolute;
+  left: 20%;
+  top: 10px;
+}
+.right {
+  position: absolute;
+  right: 20%;
+  top: 10px;
+}
